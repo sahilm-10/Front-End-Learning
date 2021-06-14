@@ -1,0 +1,96 @@
+html{
+    font-size: 16px;
+
+}
+body{
+    background-color: #FFCC33;
+    color:#333333;
+    font-size: 18px;
+}
+h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 2.66em;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#idClassPage{
+    background-color: #FFFFFF;
+
+}
+#page-title{
+    color: #FFCC33;
+    background-color: #333333;
+    padding: 20px;
+}
+.section-header{
+    color:aquamarine;
+    border: solid 2px palevioletred;
+    padding: 40px;
+    margin-top: 10px;
+
+}
+.text-center{
+    text-align: center;
+}
+.imp-strong{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+strong{
+    font-weight: normal;
+    font-style: italic;
+}
+em{
+    font-weight: normal;
+    font-style: bold;
+}
+
+/**************
+CSS for Descendant .html
+*******************/
+h1,h2,h3,h4,h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#main-container{
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+}
+.bottom-space{
+    margin-bottom: 20px;
+}
+.primary-box{
+    background-color: #FFFFFF;
+    border: solid 10px black;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.primary-box h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+.secondary-box{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.secondary-box p{
+    font-size: 22px;
+}
+.primary-box em{
+    color: #FFCC33;
+}
+.primary-box > em{
+    color: red;
+}
+.secondary-box p em{
+    color: pink;
+}

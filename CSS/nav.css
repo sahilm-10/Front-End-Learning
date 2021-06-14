@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:rgb(196, 195, 195)
+}
+nav{
+    float: right;
+   }
+nav li{
+    display: inline-block;
+        
+}
+nav li a{
+   
+    text-decoration: none;
+    margin: 20px;
+    padding-right: 12px;
+
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:violet;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    color: red;
+}
+/* LoVe-HAte */
+

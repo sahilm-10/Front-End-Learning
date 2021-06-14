@@ -1,0 +1,129 @@
+/* CSS for borders.html */
+
+.border-box{
+    background: #FFCC33;
+    padding: 40px;
+    margin: 0 0 20px;
+    width: 400px;
+    text-align: center;
+}
+ #box1{
+     /*
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px; */
+    border:  solid 1px #000000;
+}
+#box2{border:  dotted 1px #000000;}
+#box3{border:  double 3px #000000;}
+#box4{border:  dashed 1px #000000;}
+#box5{border:  dashed 4px #000000;}
+#box6{border:  dotted 4px #000000;}
+#box7{border:  double 6px #000000;}
+#box8{border:  solid 4px #000000;}
+
+/* CSS for texts.html  
+    
+
+
+Master - Reset
+*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal ;
+}
+
+body{
+    padding: 0;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    color: #333;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 0;
+    font-weight: 400;
+/* 
+    A note on 'font-weight' 
+    The values 100,200 = Lighter;
+    300-400 = Normal;
+    500,600,700 = Bold;
+    800,900 = Bolder */
+
+}
+h1{
+    font-size: 3.4em;
+
+    /* Calculate the remaining for proper presentation;
+*/
+}
+h2{
+    font-size: 3.02em;
+}
+h3{
+    font-size: 2.64em;
+}
+h4{
+    font-size: 2.66em;
+}
+h5{
+    font-size: 1.88em;
+}
+h6{
+    font-size: 1.55em;
+}
+p{
+    line-height: 1.7;
+    text-indent: 80px;
+}
+blockquote{
+    border-left: double 6px lightseagreen;
+    padding-left: 40px;
+}
+span{
+    text-transform: capitalize;
+}
+em{
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+strong{
+    font-style: italic;
+}
+
+
+/* CSS for links.html */
+
+#linksPage{
+    background: #FFCC33;
+}
+.container{
+    background: #FFF;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    padding: 50px;
+}
+a{
+    display: inline-block;
+}
+/* LOve-HAte order to be followed for links */
+
+.link-1:link{
+    padding: 10px;
+    text-decoration: none;
+    background: #333;
+    color: #FFF;
+}
+.link-1:visited{
+    color:#FFF;
+}
+.link-1:hover{
+    background: pink;
+    color:#FFF;
+}
+.link-1:active{
+    background-color: red;
+}
